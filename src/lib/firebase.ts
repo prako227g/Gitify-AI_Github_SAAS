@@ -4,7 +4,7 @@ import {getDownloadURL, getStorage, ref, uploadBytesResumable} from "firebase/st
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA93WGHeLPE_wYTUqR0XSyU-gTx8VT2s8A",
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: "ai-github-6b0a0.firebaseapp.com",
   projectId: "ai-github-6b0a0",
   storageBucket: "ai-github-6b0a0.firebasestorage.app",
